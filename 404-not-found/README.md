@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{github.com/mesfint/devChallenges/tree/main/404-not-found}">
       Solution
     </a>
     <span> | </span>
@@ -27,21 +27,30 @@
 ## Table of Contents
 
 - [Overview](#overview)
+  <p>Create a 404 not found page following the design. The page should be responsive</p>
+
   - [Built With](#built-with)
+    - HTML5
+    - CSS3
+
 - [Features](#features)
+  - The page is simple responsive page.
 - [Contact](#contact)
+  - [@MesfinTe](https://twitter.com/MesfinTe)
 - [Acknowledgements](#acknowledgements)
+  - Appreciate devechalllenge.io team to organize this.
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+<a href="https://imgur.com/zlrfPr4"><img src="https://i.imgur.com/zlrfPr4.png" title="source: imgur.com" /></a>
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+This project is a responsive design challenge by devechallenges.io, I participate into this challenge to polish my designing skills.The layout design is made by devechallenges.io i write HTML and css code.
 
-- Where can I see your demo?
-- What was your experience?
+-The demo and code solution can be seen above
+-I learned quite well tricks and best practices to develop thi page, specially supporting
+
 - What have you learned/improved?
 - Your wisdom? :)
 
@@ -49,26 +58,23 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](#HTML)
+- [Css](#Css)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The challenge was to build responsive website .
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [HTML5](#HTML5)
+- [CSS3](#CSS3)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+[@mesfinT](https://{twitter.com/mesfint})

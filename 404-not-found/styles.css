@@ -4,56 +4,65 @@
 }
 
 body {
-  box-sizing: content-box;
-  font-family: "Space Mono", monospace;
+  box-sizing: border-box; /*the padding and 
+  margin would be included n  the width*/
+  font-family: 'Space Mono', monospace;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
-  margin: 40px 77px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* on mobile it will stack one on top of the other */
+  max-width: 1200px;
+  padding: 1.25em;
+  min-height: 100vh; /*Make everything in the center*/
+  margin: 0 auto;
 }
+.container > div {
+  /*The first child div 'll take half of the space available*/
+  flex: 1;
+  padding: 0 1.25em;
+}
+
 .logo {
-  border: 1px solid red;
-}
-.mainContent {
-  display: flex;
-  width: 100%;
-  margin-top: 95px;
-}
-.paraTextContent {
-  width: 75%;
-}
-.paraTextContent p {
-  font-weight: 400;
-  margin-top: 15px;
-  line-height: 30px;
-  letter-spacing: -0.025em;
-}
-.headingTextContent {
-  width: 100%;
-}
-.headingTextContent h1 {
+  font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  line-height: 55px;
-  font-size: 38px;
-  letter-spacing: -0.037em;
-}
-.imageContent {
-  width: 40%;
-  margin-right: 100px;
-  border: 2px solid red;
-}
-.image {
-  width: 100%;
+  font-size: 24px;
+  color: #333;
+  margin: 5% 20%;
 }
 
 .textContent {
-  width: 40%;
-  /*   margin: 265px 119px 600px 0;
- */
-  border: 2px solid red;
+  width: 400px;
+  /*   border: 2px solid red; */
+  margin-top: -10rem;
 }
+
+h1 {
+  font-weight: 700;
+  line-height: 55px;
+  font-size: 2.5rem;
+  letter-spacing: -0.037em;
+}
+p {
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 0.93rem;
+  line-height: 25px;
+  letter-spacing: -0.025em;
+}
+.imageContent {
+  width: 400px;
+  /* border: 2px solid red; */
+  margin-bottom: 0;
+  margin-top: -10rem;
+}
+.image {
+  width: 75%;
+  height: auto;
+}
+
 .backToHomePage {
   background-color: #333;
   font-weight: 700;
@@ -61,16 +70,37 @@ body {
   width: 180px;
   text-align: center;
   line-height: 50px;
-  margin-top: 40px;
+  margin-top: 105px;
   color: #fff;
 }
 
-.footer {
+footer {
   display: flex;
-  font-weight: 600;
-  font-size: 12px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .textContent {
+    margin-top: -15em;
+  }
+  .imageContent {
+    margin-top: 0;
+  }
+  footer {
+    margin-top: -10rem;
+  }
 }

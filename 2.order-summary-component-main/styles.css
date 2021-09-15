@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: hsl(223, 64%, 81%);
+}
+
+.hero img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.content {
+  width: 20%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: hsl(225, 100%, 98%);
+}
+.text-content {
+  padding: 30px;
+}
+.text-content h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.text-content p {
+  color: hsl(245, 60%, 53%);
+  font-weight: 300;
+}
+
+.plan {
+  display: flex;
+  width: 95%;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 15px;
+  background-color: hsl(225, 100%, 94%);
+}
+.anual-plan {
+  font-weight: 900;
+}
+
+.fa-music {
+  border-radius: 50%;
+  height: 33px;
+  width: 33px;
+  padding: 8px 3px;
+  background-color: hsl(220, 5%, 76%);
+}
+.payment-btn {
+  width: 95%;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 15px;
+  background-color: hsl(245, 75%, 52%);
+}
+.payment-btn:hover {
+  background-color: hsl(224, 23%, 55%);
+  transition: 1s;
+}
+.payment-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.cancle {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}

@@ -22,7 +22,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Screenshot
 
-![](./devChallenges/2.order-summary-component-main/images/Screenshot.png)
+![](https://github.com/mesfint/devChallenges/blob/main/2.order-summary-component-main/images/Screenshot.png)
 
 ### Links
 

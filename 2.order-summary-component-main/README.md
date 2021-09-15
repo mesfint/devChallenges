@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./devChallenges/2.order-summary-component-main/images/Screenshot.png)
+![](https://github.com/mesfint/devChallenges/blob/main/2.order-summary-component-main/images/Screenshot.png)
 
 ### Links
 

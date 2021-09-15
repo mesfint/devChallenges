@@ -10,21 +10,15 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+The challenge is to build out this order summary card component and get it looking as close to the design as possible.
 
-- See hover states for interactive elements
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 ### Screenshot
 
@@ -48,5 +42,3 @@ Users should be able to:
 - Website - [Mesfin Tegegne](https://mesfint.netlify.app/)
 - Frontend Mentor - [@mesfint](https://www.frontendmentor.io/profile/mesfint)
 - Twitter - [@MesfinTe](https://twitter.com/MesfinTe)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
